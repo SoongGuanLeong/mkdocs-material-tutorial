@@ -5,7 +5,7 @@ A personal reference project showcasing features of the [Material for MkDocs](ht
 ## Demo
 
 <!-- TODO: Replace with actual GitHub Pages URL once deployed -->
-The live site is deployed via GitHub Pages: `https://SoongGuanLeong.github.io/mkdocs-material-tutorial/`
+The live site is deployed via GitHub Pages: [`https://SoongGuanLeong.github.io/mkdocs-material-tutorial/`](https://SoongGuanLeong.github.io/mkdocs-material-tutorial/)
 
 ## Features Covered
 
