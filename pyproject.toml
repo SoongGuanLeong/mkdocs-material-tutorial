@@ -2,7 +2,10 @@
 name = "template"
 version = "0.1.0"
 description = "Copier template maintainer workspace (excluded from generated projects)"
-requires-python = ">=3.11"
+requires-python = ">=3.12.6"
+dependencies = [
+    "mkdocs-material>=9.7.7",
+]
 
 [project.optional-dependencies]
 dev = [
@@ -13,14 +16,14 @@ dev = [
 
 [tool.ruff]
 line-length = 120
-target-version = "py311"
+target-version = "py312"
 
 [tool.ruff.lint]
 select = ["E", "W", "F", "I", "B", "UP", "N"]
 
 [tool.pyright]
 include = ["src"]
-pythonVersion = "3.11"
+pythonVersion = "3.12"
 typeCheckingMode = "strict"
 reportMissingImports = false
 
